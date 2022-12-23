@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T22:53:43.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="H6dERG6_WJeUBwY5rXxL" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-23T16:29:35.517Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="xfCJYZF0UWt3WFTR-6Qh" version="20.7.4" type="github">
   <diagram id="d24IZhy2of9IGq9I24QP" name="Page-1">
     <mxGraphModel dx="2395" dy="4477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -98,7 +98,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DFvzehpDodlHu4vB1z6l-24" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Display an alert &quot;call an associate to get password info&quot; if the user tries over 5 times&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DFvzehpDodlHu4vB1z6l-24" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Display an alert &quot;call an associate to get password info&quot; if the user tries over 5 times. The log in won&#39;t be locked&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-530" y="-3490" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DFvzehpDodlHu4vB1z6l-25" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(INPUT)Login Credential&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ ID: Email&lt;br&gt;+ Password: Text&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;strokeColor=default;" vertex="1" parent="1">
@@ -209,16 +209,75 @@
         <mxCell id="DFvzehpDodlHu4vB1z6l-100" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Create accounts&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;The account is listed&amp;nbsp;&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;If account is completed to add payment, you can see the account on the &quot;Account billing&quot; and &quot;Invoice&quot; section&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=1;shadow=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-290" y="-3045" width="240" height="121" as="geometry" />
         </mxCell>
-        <mxCell id="DFvzehpDodlHu4vB1z6l-101" value="Create an account newly or convert potential client from &quot;Sales&quot; to a new customer" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fad7ac;strokeColor=#050000;" vertex="1" parent="1">
+        <mxCell id="DFvzehpDodlHu4vB1z6l-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#050000;fontSize=12;endArrow=classic;endFill=1;" edge="1" parent="1" source="DFvzehpDodlHu4vB1z6l-101" target="DFvzehpDodlHu4vB1z6l-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DFvzehpDodlHu4vB1z6l-101" value="&lt;font color=&quot;#ff0000&quot;&gt;Create&lt;/font&gt; an account newly or convert potential client from &quot;Sales&quot; to a new customer" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fad7ac;strokeColor=#050000;" vertex="1" parent="1">
           <mxGeometry x="60" y="-3037.5" width="250" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="DFvzehpDodlHu4vB1z6l-102" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(INPUT)Account Information&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Email: Email&lt;br&gt;+ Name: Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Password: Password&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Phone number: Phone&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Contract Start: Date&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Contract Level: Radio&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Billing frequency: Radio (Monthly, Anually)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Name: Type&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Name: Type&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Name: Type&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Name: Type&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Name: Type&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="60" y="-2962" width="250" height="272" as="geometry" />
+        <mxCell id="DFvzehpDodlHu4vB1z6l-102" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(INPUT)Account Information&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;PK&amp;nbsp; Account ID: Integer&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Email: Email&lt;br&gt;+ Name: Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Password: Password&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Phone number: Phone&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Contract Start: Date&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Contract Level: Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Billing frequency: Text (Monthly, Annually)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Last Billing Date: Date&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Customer Service History: Table&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Customer Service Input: Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Payment History: Table&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Tickets: Table&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Create Date: Date&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Update Date: Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-2962" width="250" height="262" as="geometry" />
         </mxCell>
         <mxCell id="DFvzehpDodlHu4vB1z6l-103" value="" style="shape=component;jettyWidth=8;jettyHeight=4;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="DFvzehpDodlHu4vB1z6l-102">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DFvzehpDodlHu4vB1z6l-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#050000;fontSize=12;endArrow=classic;endFill=1;" edge="1" parent="1" source="DFvzehpDodlHu4vB1z6l-104" target="DFvzehpDodlHu4vB1z6l-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DFvzehpDodlHu4vB1z6l-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#050000;fontSize=12;endArrow=classic;endFill=1;" edge="1" parent="1" source="DFvzehpDodlHu4vB1z6l-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="-2870" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="548" y="-2922" />
+              <mxPoint x="548" y="-2870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFvzehpDodlHu4vB1z6l-104" value="When account is created, admin can access to the account/&lt;font color=&quot;#ff0000&quot;&gt;read&lt;/font&gt; in the list&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#050000;fontColor=rgb(0, 0, 0);rounded=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="455" y="-3035" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFvzehpDodlHu4vB1z6l-106" value="If admin need to update customer, admin can&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;update&lt;/font&gt; the account&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#050000;fontColor=rgb(0, 0, 0);rounded=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="752.5" y="-3035" width="287.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFvzehpDodlHu4vB1z6l-108" value="If admin need to delete customer, admin can&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;delete&lt;/font&gt;&amp;nbsp;the account&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#050000;fontColor=rgb(0, 0, 0);rounded=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="752.5" y="-2900" width="287.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFvzehpDodlHu4vB1z6l-110" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(OUTPUT)Account Information&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Email: Email&lt;br&gt;+ Name: Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Contract Start: Date&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Contract Level: Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Billing frequency: Text&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Last Billing Date: Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-2840" width="250" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DFvzehpDodlHu4vB1z6l-111" value="" style="shape=component;jettyWidth=8;jettyHeight=4;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="DFvzehpDodlHu4vB1z6l-110">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFvzehpDodlHu4vB1z6l-113" value="&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;If account is completed to add payment, you can see the account on the &quot;Account billing&quot; and &quot;Invoice&quot; section&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fad7ac;strokeColor=#050000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-2595" width="250" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="DFvzehpDodlHu4vB1z6l-114" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(INPUT)Billing Information&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Email: Email&lt;br&gt;+ Name: Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Password: Password&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Phone number: Phone&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Contract Start: Date&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Contract Level: Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Billing frequency: Text (Monthly, Annually)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Last Billing Date: Date&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Customer Service History: Table&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Customer Service Input: Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Payment History: Table&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Tickets: Table&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Create Date: Date&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Update Date: Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-2520" width="250" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="DFvzehpDodlHu4vB1z6l-115" value="" style="shape=component;jettyWidth=8;jettyHeight=4;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="DFvzehpDodlHu4vB1z6l-114">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFvzehpDodlHu4vB1z6l-118" value="Relation" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#050000;fontSize=12;fontColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="-2500" as="sourcePoint" />
+            <mxPoint x="50" y="-2830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-40" y="-2500" />
+              <mxPoint x="-40" y="-2830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFvzehpDodlHu4vB1z6l-119" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fontColor=#FF0000;fillColor=#FFFFFF;" connectable="0" vertex="1" parent="DFvzehpDodlHu4vB1z6l-118">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DFvzehpDodlHu4vB1z6l-120" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fontColor=#FF0000;fillColor=#FFFFFF;" connectable="0" vertex="1" parent="DFvzehpDodlHu4vB1z6l-118">
+          <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

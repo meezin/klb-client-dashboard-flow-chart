@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T20:11:11.753Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="hi6h-h6NtQp1UX6695wa" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-03T23:03:53.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="TNmW1ZltDaskBgWM1Wpi" version="20.7.4" type="github">
   <diagram id="d24IZhy2of9IGq9I24QP" name="Page-1">
     <mxGraphModel dx="2634" dy="4604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -592,13 +592,13 @@
           <mxGeometry x="2160" y="-1020" width="282.5" height="83" as="geometry" />
         </mxCell>
         <mxCell id="9x-aZbk2dngR0R3xnLgS-26" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;rounded=1;shadow=1;strokeColor=default;labelBackgroundColor=none;fillColor=#45FFE0;" vertex="1" parent="1">
-          <mxGeometry x="-250.25" y="-720" width="300" height="200" as="geometry" />
+          <mxGeometry x="-260" y="-720" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="9x-aZbk2dngR0R3xnLgS-27" value="The process of managing sales." style="text;strokeColor=none;fillColor=none;html=1;fontSize=18;fontStyle=1;verticalAlign=middle;align=center;rounded=1;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="-110.25" y="-690" width="20" height="14" as="geometry" />
+          <mxGeometry x="-120" y="-690" width="20" height="14" as="geometry" />
         </mxCell>
         <mxCell id="9x-aZbk2dngR0R3xnLgS-28" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Create sales lead&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;The account is listed on &quot;Sale&quot; section&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Administrator can write sales milestone each lead&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;if they become the customer, the status has been converted to &quot;Accounts&quot; and you are able to see him/her on &quot;Account&quot; section&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=1;shadow=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-230.25" y="-675" width="270.25" height="155" as="geometry" />
+          <mxGeometry x="-240" y="-675" width="270.25" height="155" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

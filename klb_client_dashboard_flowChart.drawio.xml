@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T22:55:01.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="SVkNUchCxGkQ1cg7ECW0" version="20.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-20T21:45:21.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JuiIjUORiUl34jjgHY-I" version="20.8.10" type="github">
   <diagram id="d24IZhy2of9IGq9I24QP" name="Page-1">
     <mxGraphModel dx="2634" dy="4604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -602,77 +602,77 @@
         <mxCell id="9x-aZbk2dngR0R3xnLgS-28" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Create sales lead&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;The account is listed on &quot;Sale&quot; section&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Administrator can write sales milestone each lead&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;if they become the customer, the status has been converted to &quot;Accounts&quot; and you are able to see him/her on &quot;Account&quot; section&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=1;shadow=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-240" y="-675" width="270.25" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="upC1AI-Cp1_8iSwnkd0d-2">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="upC1AI-Cp1_8iSwnkd0d-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="-683" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-2" value="&lt;font color=&quot;#ff0000&quot;&gt;Access &lt;/font&gt;to the &quot;Sales&quot; category" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-2" value="&lt;font color=&quot;#ff0000&quot;&gt;Access &lt;/font&gt;to the &quot;Sales&quot; category" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="80" y="-715.5" width="250" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#050000;fontSize=12;endArrow=classic;endFill=1;" edge="1" parent="1" source="upC1AI-Cp1_8iSwnkd0d-4">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#050000;fontSize=12;endArrow=classic;endFill=1;" parent="1" source="upC1AI-Cp1_8iSwnkd0d-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="798" y="-683" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-4" value="&lt;font color=&quot;#ff0000&quot;&gt;Create &lt;/font&gt;a potential client&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fad7ac;strokeColor=#050000;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-4" value="&lt;font color=&quot;#ff0000&quot;&gt;Create &lt;/font&gt;a potential client&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#fad7ac;strokeColor=#050000;" parent="1" vertex="1">
           <mxGeometry x="403" y="-715.5" width="250" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-6" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(INPUT)Manager Model&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;PK ID: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Name : Text&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Email : Email&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Password : Password&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Permission: Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-6" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(INPUT)Manager Model&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;PK ID: Integer&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Name : Text&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Email : Email&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Password : Password&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Permission: Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="-480" y="-2145.5" width="250" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-7" value="" style="shape=component;jettyWidth=8;jettyHeight=4;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="upC1AI-Cp1_8iSwnkd0d-6">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-7" value="" style="shape=component;jettyWidth=8;jettyHeight=4;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" parent="upC1AI-Cp1_8iSwnkd0d-6" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#050000;fontSize=12;endArrow=classic;endFill=1;" edge="1" parent="1" source="upC1AI-Cp1_8iSwnkd0d-10">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#050000;fontSize=12;endArrow=classic;endFill=1;" parent="1" source="upC1AI-Cp1_8iSwnkd0d-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1073" y="-683" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-10" value="When an account is created, an administrator can &lt;font color=&quot;#ff0000&quot;&gt;read&lt;/font&gt; it and view it in the list." style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#050000;fontColor=rgb(0, 0, 0);rounded=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-10" value="When an account is created, an administrator can &lt;font color=&quot;#ff0000&quot;&gt;read&lt;/font&gt; it and view it in the list." style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#050000;fontColor=rgb(0, 0, 0);rounded=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="798" y="-713" width="185" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#000000;" edge="1" parent="1" source="upC1AI-Cp1_8iSwnkd0d-12">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#000000;" parent="1" source="upC1AI-Cp1_8iSwnkd0d-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1413" y="-683" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-12" value="View the details of the lead." style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#000000;rounded=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-12" value="View the details of the lead." style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#000000;rounded=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1075.5" y="-713" width="225" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="upC1AI-Cp1_8iSwnkd0d-14">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="upC1AI-Cp1_8iSwnkd0d-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1413" y="-683" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-14" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;update&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-14" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;update&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1303" y="-703" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-15" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Click&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-15" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Click&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="983" y="-703" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-16" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(INPUT)Account Model&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;PK&amp;nbsp; Account ID: Integer&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Email: Email&lt;br&gt;+ Name: Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Password: Password&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Phone number: Phone&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Address : Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Customer Service Input: &lt;b&gt;&lt;i&gt;CustomerService&lt;/i&gt;&lt;/b&gt; Model&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Milestone Input:&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Milestone&lt;/i&gt;&lt;/b&gt;&amp;nbsp;Model&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Subscribed Product:&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Product&lt;/i&gt;&lt;/b&gt;&amp;nbsp;Model&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Status : &lt;b&gt;&lt;i&gt;Status&lt;/i&gt;&lt;/b&gt; Model&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Account Manager : &lt;b&gt;&lt;i&gt;Manager&lt;/i&gt;&lt;/b&gt; Model&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Create Date: Date (Auto)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Update Date: Date (Auto)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-16" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(INPUT)Account Model&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;PK&amp;nbsp; Account ID: Integer&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Email: Email&lt;br&gt;+ Name: Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Password: Password&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Phone number: Phone&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Address : Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Customer Service Input: &lt;b&gt;&lt;i&gt;CustomerService&lt;/i&gt;&lt;/b&gt; Model&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Milestone Input:&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Milestone&lt;/i&gt;&lt;/b&gt;&amp;nbsp;Model&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Subscribed Product:&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Product&lt;/i&gt;&lt;/b&gt;&amp;nbsp;Model&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Status : &lt;b&gt;&lt;i&gt;Status&lt;/i&gt;&lt;/b&gt; Model&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Account Manager : &lt;b&gt;&lt;i&gt;Manager&lt;/i&gt;&lt;/b&gt; Model&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Create Date: Date (Auto)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Update Date: Date (Auto)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="387.5" y="-2950" width="295" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-17" value="" style="shape=component;jettyWidth=8;jettyHeight=4;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="upC1AI-Cp1_8iSwnkd0d-16">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-17" value="" style="shape=component;jettyWidth=8;jettyHeight=4;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" parent="upC1AI-Cp1_8iSwnkd0d-16" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-18" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(OUTPUT)Lean Model&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Name: Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Email: Email&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Account Manager :&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Manage&lt;/i&gt;&lt;/b&gt;r Model&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Last Communication Date: Date&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;(Milestone - Update date)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-18" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(OUTPUT)Lead Model&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Name: Text&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Email: Email&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Account Manager :&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Manage&lt;/i&gt;&lt;/b&gt;r Model&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Last Communication Date: Date&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;(Milestone - Update date)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="765.5" y="-630" width="250" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-19" value="" style="shape=component;jettyWidth=8;jettyHeight=4;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="upC1AI-Cp1_8iSwnkd0d-18">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-19" value="" style="shape=component;jettyWidth=8;jettyHeight=4;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" parent="upC1AI-Cp1_8iSwnkd0d-18" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-20" value="Is active?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-20" value="Is active?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="760" y="-3025.5" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-21" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;fontColor=#000000;" edge="1" parent="1" source="upC1AI-Cp1_8iSwnkd0d-20">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-21" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;fontColor=#000000;" parent="1" source="upC1AI-Cp1_8iSwnkd0d-20" edge="1">
           <mxGeometry x="0.0805" y="10" relative="1" as="geometry">
             <mxPoint x="1100" y="-3100" as="targetPoint" />
             <Array as="points">
@@ -681,7 +681,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-22" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;fontColor=#000000;" edge="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-22" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry x="-0.4783" y="25" relative="1" as="geometry">
             <mxPoint x="1100" y="-3005" as="targetPoint" />
             <Array as="points">
@@ -692,22 +692,22 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="660" y="-3006" as="sourcePoint" />
             <mxPoint x="770.25" y="-3006" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-24" value="An administrator can &lt;font color=&quot;#ff0000&quot;&gt;read&lt;/font&gt; it and view it in the inactive list." style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#050000;fontColor=rgb(0, 0, 0);rounded=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-24" value="An administrator can &lt;font color=&quot;#ff0000&quot;&gt;read&lt;/font&gt; it and view it in the inactive list." style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#050000;fontColor=rgb(0, 0, 0);rounded=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1100.5" y="-3130" width="185" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-25" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-25" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="1015.5" y="-3435" width="310" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-26" value="To activate the account, the customer must first pay the first bill. If they wish to cancel the plan, the administrator must change the status to &quot;Inactive&quot; and the account will be added to the inactive list." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-26" value="To activate the account, the customer must first pay the first bill. If they wish to cancel the plan, the administrator must change the status to &quot;Inactive&quot; and the account will be added to the inactive list." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1033" y="-3405" width="275" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#050000;fontSize=12;endArrow=classic;endFill=1;" edge="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#050000;fontSize=12;endArrow=classic;endFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1370" y="-2995" as="targetPoint" />
             <mxPoint x="1290" y="-2995" as="sourcePoint" />
@@ -716,14 +716,52 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-31" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Click&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-31" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Click&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1285.5" y="-3130" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-37" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-37" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=card;whiteSpace=wrap;size=20;arcSize=12;strokeColor=#000000;strokeWidth=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="742.5" y="-450" width="310" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="upC1AI-Cp1_8iSwnkd0d-38" value="To activate the account, the customer must first pay the first bill. If they wish to cancel the plan, the administrator must change the status to &quot;Inactive&quot; and the account will be added to the inactive list." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="upC1AI-Cp1_8iSwnkd0d-38" value="To activate the account, the customer must first pay the first bill. If they wish to cancel the plan, the administrator must change the status to &quot;Inactive&quot; and the account will be added to the inactive list." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="760" y="-420" width="275" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OrHp7lioI0o0modLyfsl-5" value="check if the status is &lt;br&gt;changed to &quot;Won&quot;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#050000;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="-722" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OrHp7lioI0o0modLyfsl-6" value="The number of open tickets in the ticket statistics has increased" style="whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;rounded=1;strokeWidth=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="-584.5" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OrHp7lioI0o0modLyfsl-7" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=classic;endSize=8;strokeColor=#050000;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="2060" y="-671.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2010" y="-671.5" />
+            </Array>
+            <mxPoint x="1608.8125" y="-671.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OrHp7lioI0o0modLyfsl-8" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=classic;endSize=8;strokeColor=#050000;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="1730" y="-554.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1515" y="-554.5" />
+            </Array>
+            <mxPoint x="1515" y="-632" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OrHp7lioI0o0modLyfsl-9" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1920" y="-554.5" as="sourcePoint" />
+            <mxPoint x="2060" y="-652.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OrHp7lioI0o0modLyfsl-10" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(INPUT)Lead Status Model&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Status ID:Number&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Status Name:String&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;(Qualify(default)/Contacting/Visited/Called/&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Quotation/Won/Lost)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="403" y="-390" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="OrHp7lioI0o0modLyfsl-11" value="" style="shape=component;jettyWidth=8;jettyHeight=4;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="OrHp7lioI0o0modLyfsl-10">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T23:02:00.145Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="qxozfvp1N1KEU1yKcF7a" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-02T23:06:17.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="5xL2mWh9EBmbgItfsukY" version="20.8.13" type="github">
   <diagram id="d24IZhy2of9IGq9I24QP" name="Page-1">
     <mxGraphModel dx="2566" dy="4568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -1044,6 +1044,35 @@
         </mxCell>
         <mxCell id="KLGYE5Wh49g7EdgquW5B-50" value="&lt;ul style=&quot;font-size: 12px;&quot;&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;Access the list of the previous tickets&lt;/li&gt;&lt;li style=&quot;font-size: 12px;&quot;&gt;To open a ticket, the client should select a topic and compose a detailed inquiry.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;rounded=1;shadow=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-239.76" y="1250" width="240" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="KLGYE5Wh49g7EdgquW5B-52" target="KLGYE5Wh49g7EdgquW5B-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-52" value="&lt;font color=&quot;#ff0000&quot;&gt;Access &lt;/font&gt;to the &quot;Support&quot; category" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1210" width="250" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-53" value="View the list of the previous support history." style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#000000;rounded=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="437.5" y="1212.5" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-54" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(OUTPUT)Billing Information&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;PK Ticket ID: String&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;+ Subject : String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;+ Last updated : Date&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;+ Status: Text&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="405" y="1300" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-55" value="" style="shape=component;jettyWidth=8;jettyHeight=4;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="KLGYE5Wh49g7EdgquW5B-54">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="662.5" y="1242" as="sourcePoint" />
+            <mxPoint x="755" y="1242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-57" value="Client can view the detail of the ticket" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#000000;rounded=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="760.5" y="1212.5" width="274.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-58" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;Click&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="993" y="-693" width="50" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

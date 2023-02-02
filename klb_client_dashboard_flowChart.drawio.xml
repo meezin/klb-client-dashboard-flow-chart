@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T22:20:51.044Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JkHDgwEtIw-FSXUReB7U" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-02T22:42:16.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="pFO8I_6vwzFsZ1esp9zl" version="20.8.13" type="github">
   <diagram id="d24IZhy2of9IGq9I24QP" name="Page-1">
     <mxGraphModel dx="2634" dy="4604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -893,10 +893,19 @@
         <mxCell id="Jqekb4FKM-YJh9C29WWA-2" value="&lt;font color=&quot;#ff0000&quot;&gt;Access &lt;/font&gt;to the &quot;Account&quot; category" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="100" y="240" width="250" height="65" as="geometry" />
         </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="Jqekb4FKM-YJh9C29WWA-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="273" />
+              <mxPoint x="680" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Jqekb4FKM-YJh9C29WWA-3" value="View the details of the account." style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#000000;rounded=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="432.5" y="242.5" width="225" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jqekb4FKM-YJh9C29WWA-4" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(In/OUT)Account Model&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Email: Email&lt;br&gt;+ Name: Text&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Phone number: Phone&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Address : Text&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Payment method : &lt;i&gt;&lt;b&gt;Card&lt;/b&gt;&lt;/i&gt; Model&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Account Manager :&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Manager&lt;/i&gt;&lt;/b&gt;&amp;nbsp;Model&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Contract Start: Date (Auto - first billed date)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Subscribed Product: &lt;b&gt;&lt;i&gt;Product&lt;/i&gt;&lt;/b&gt; Model&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Status :&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Status&lt;/i&gt;&lt;/b&gt;&amp;nbsp;Model&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Last Billing Date: Date&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Tickets History: &lt;b&gt;&lt;i&gt;Ticket&lt;/i&gt;&lt;/b&gt; Model&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;&lt;font color=&quot;#ff8000&quot;&gt;+ Payment History: &lt;b&gt;&lt;i&gt;Billing&lt;/i&gt;&lt;/b&gt; Model&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="Jqekb4FKM-YJh9C29WWA-4" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(In/OUT)Account Model&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Email: Email&lt;br&gt;+ Name: Text&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Phone number: Phone&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Address : Text&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Payment method : &lt;i&gt;&lt;b&gt;Card&lt;/b&gt;&lt;/i&gt; Model&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Account Manager :&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Manager&lt;/i&gt;&lt;/b&gt;&amp;nbsp;Model&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Contract Start: Date (Auto - first billed date)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Subscribed Product: &lt;b&gt;&lt;i&gt;Product&lt;/i&gt;&lt;/b&gt; Model&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Status :&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Status&lt;/i&gt;&lt;/b&gt;&amp;nbsp;Model&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ Last Billing Date: Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="400" y="320" width="290" height="280" as="geometry" />
         </mxCell>
         <mxCell id="Jqekb4FKM-YJh9C29WWA-5" value="" style="shape=component;jettyWidth=8;jettyHeight=4;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" parent="Jqekb4FKM-YJh9C29WWA-4" vertex="1">
@@ -930,7 +939,10 @@
             <mxPoint x="657.5" y="272.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KLGYE5Wh49g7EdgquW5B-9" value="A client wants to change the credit card information, they can &lt;font color=&quot;#ff0000&quot;&gt;update&lt;/font&gt; it - * One primary payment method must be saved during the activation." style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#050000;fontColor=rgb(0, 0, 0);rounded=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="KLGYE5Wh49g7EdgquW5B-9" target="KLGYE5Wh49g7EdgquW5B-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-9" value="If clients want to change credit card information, they can &lt;font color=&quot;#ff0000&quot;&gt;update&lt;/font&gt; it by themselves - * One primary payment method must be saved during the activation." style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#050000;fontColor=rgb(0, 0, 0);rounded=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="802.5" y="242.5" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KLGYE5Wh49g7EdgquW5B-10" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(INPUT)Paymentmethod Model&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;+ Name: Text&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Card Number:String&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Exp month:Num&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Exp year:Num&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ CVV: num&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Postal code: num&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;https://stripe.com/docs/api/payment_methods/object&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="1">
@@ -968,6 +980,53 @@
             <mxGeometry x="-260" y="-3270" width="430" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-23" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;All clients who can access to Account category, they must complete the activation at the customer portal&amp;nbsp;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="85" y="190" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-24" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Besides card information, if they want to update their personal information such as email, phone number, email address, they have to suggest the change to administrators&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="410" y="170" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-25" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;update&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="760" y="249.5" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="KLGYE5Wh49g7EdgquW5B-29" target="KLGYE5Wh49g7EdgquW5B-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-29" value="&lt;font color=&quot;#000000&quot;&gt;If clients want to change the information such as email, phone, or email address, he/she should ask administrators to&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;update&lt;/font&gt;&amp;nbsp;them&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#000000;rounded=1;strokeWidth=2;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="802.5" y="690" width="297.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-32" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;update suggestion&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="742.5" y="680" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="KLGYE5Wh49g7EdgquW5B-33" target="KLGYE5Wh49g7EdgquW5B-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-33" value="Notify the administrator with an &quot;Inquire for updating information&quot; alert" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="692.5" width="233.75" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-35" value="Notify the administrator with an &quot;updating payment information&quot; alert" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="240" width="233.75" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-37" value="administrators accept the inquiry or update the new information manually&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;rounded=1;strokeWidth=2;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="695" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="KLGYE5Wh49g7EdgquW5B-39" target="KLGYE5Wh49g7EdgquW5B-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-39" value="&lt;font color=&quot;#ff0000&quot;&gt;Access &lt;/font&gt;to the &quot;Billing&quot; category" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="100" y="810" width="250" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-40" value="View the details of the Billing." style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#000000;rounded=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="812.5" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-44" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(OUTPUT)Billing Information&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;PK Transaction ID: String&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;+ Charge:&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Pricing&lt;/i&gt;&lt;/b&gt;&amp;nbsp;Model&lt;br&gt;+ 4 digits: Num&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Tax : &lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;Pricing&lt;/i&gt;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; Model&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Billing Date: Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="420" y="900" width="250" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-45" value="" style="shape=component;jettyWidth=8;jettyHeight=4;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="KLGYE5Wh49g7EdgquW5B-44">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

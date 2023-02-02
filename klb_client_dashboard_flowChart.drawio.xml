@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-02T22:42:16.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="pFO8I_6vwzFsZ1esp9zl" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-02T22:50:18.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="u-7yNWl54Fjow3Mgp735" version="20.8.13" type="github">
   <diagram id="d24IZhy2of9IGq9I24QP" name="Page-1">
     <mxGraphModel dx="2634" dy="4604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -1016,11 +1016,11 @@
         <mxCell id="KLGYE5Wh49g7EdgquW5B-39" value="&lt;font color=&quot;#ff0000&quot;&gt;Access &lt;/font&gt;to the &quot;Billing&quot; category" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="100" y="810" width="250" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="KLGYE5Wh49g7EdgquW5B-40" value="View the details of the Billing." style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#000000;rounded=1;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="KLGYE5Wh49g7EdgquW5B-40" value="View the details of the Billing history." style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#000000;rounded=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="442.5" y="812.5" width="225" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KLGYE5Wh49g7EdgquW5B-44" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;(OUTPUT)Billing Information&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;PK Transaction ID: String&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;+ Charge:&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Pricing&lt;/i&gt;&lt;/b&gt;&amp;nbsp;Model&lt;br&gt;+ 4 digits: Num&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Tax : &lt;/span&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;Pricing&lt;/i&gt;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt; Model&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;+ Billing Date: Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="420" y="900" width="250" height="252" as="geometry" />
+          <mxGeometry x="430" y="900" width="250" height="252" as="geometry" />
         </mxCell>
         <mxCell id="KLGYE5Wh49g7EdgquW5B-45" value="" style="shape=component;jettyWidth=8;jettyHeight=4;rounded=1;shadow=1;labelBackgroundColor=none;strokeColor=default;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="KLGYE5Wh49g7EdgquW5B-44">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
